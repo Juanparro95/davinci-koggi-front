@@ -1,0 +1,47 @@
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.user-card {
+  border: 1px solic #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+}
+
+.user-card img {
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 300px;
+  margin-top: 16px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+}
+
+button {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  background-color: #051d37;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #1e5fa5;
+}
